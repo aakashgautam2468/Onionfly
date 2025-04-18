@@ -1,15 +1,22 @@
+// controllers/Pages.h
 #pragma once
 
-#include <drogon/HttpSimpleController.h>
+// Use HttpController for easier view rendering
+#include <drogon/HttpController.h>
 
 using namespace drogon;
 
-class Pages : public drogon::HttpSimpleController<Pages>
+// Inherit from HttpController, not HttpSimpleController
+class Pages : public drogon::HttpController<Pages>
 {
   public:
-    void asyncHandleHttpRequest(const HttpRequestPtr& req, std::function<void (const HttpResponsePtr &)> &&callback) override;
-    PATH_LIST_BEGIN
-    // list path definitions here;
-    // PATH_ADD("/path", "filter1", "filter2", HttpMethod1, HttpMethod2...);
-    PATH_LIST_END
+    // Use METHOD_LIST for HttpController path mapping
+    METHOD_LIST_BEGIN
+    // Map the root path "/" to the showIndex method for GET requests
+    METHOD_ADD(Pages::showIndex, "/", Get);
+    METHOD_LIST_END
+
+    // Declare the handler method for the "/" path
+    void showIndex(const HttpRequestPtr& req,
+                   std::function<void (const HttpResponsePtr &)> &&callback);
 };
