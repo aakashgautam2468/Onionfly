@@ -1,0 +1,3 @@
+/storage/emulated/0/onionfly/build/CMakeFiles/CMakeScratch/TryCompile-FoWhqG/CMakeFiles/cmTC_fba4b.dir
+/storage/emulated/0/onionfly/build/CMakeFiles/CMakeScratch/TryCompile-FoWhqG/CMakeFiles/edit_cache.dir
+/storage/emulated/0/onionfly/build/CMakeFiles/CMakeScratch/TryCompile-FoWhqG/CMakeFiles/rebuild_cache.dir
