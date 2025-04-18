@@ -116,6 +116,9 @@ CMAKE_OBJCOPY:FILEPATH=/data/data/com.termux/files/usr/bin/llvm-objcopy
 //Path to a program.
 CMAKE_OBJDUMP:FILEPATH=/data/data/com.termux/files/usr/bin/llvm-objdump
 
+//No help, variable specified on the command line.
+CMAKE_PREFIX_PATH:UNINITIALIZED=/data/data/com.termux/files/home/drogon/
+
 //Value Computed by CMake
 CMAKE_PROJECT_DESCRIPTION:STATIC=
 
