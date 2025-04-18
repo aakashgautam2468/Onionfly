@@ -1,0 +1,28 @@
+<!-- views/index.csp -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@{pageTitle}</title> <!-- Using data passed from controller -->
+    <style>
+        body { font-family: sans-serif; }
+    </style>
+</head>
+<body>
+    <h1>@{message}</h1> <!-- Using data passed from controller -->
+    <p>This page was generated dynamically.</p>
+    <p>Server Time: @{currentTime}</p> <!-- Using data passed from controller -->
+
+    <!-- Example of C++ code embedding (use with caution) -->
+    <%
+       // You can embed C++ code here, but it's often better
+       // to prepare data in the controller.
+       auto userAgent = req->getHeader("User-Agent");
+       if(!userAgent.empty()) {
+    %>
+       <p><small>Your User Agent: <%== userAgent %></small></p> <!-- Note: <%== for HTML escaping -->
+    <%
+       }
+    %>
+
+</body>
+</html>
