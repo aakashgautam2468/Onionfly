@@ -16,6 +16,7 @@
     <%
        // You can embed C++ code here, but it's often better
        // to prepare data in the controller.
+       // NOTE: The 'req' object is available in CSP files by default
        auto userAgent = req->getHeader("User-Agent");
        if(!userAgent.empty()) {
     %>
