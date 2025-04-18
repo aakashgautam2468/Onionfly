@@ -1,1 +1,0 @@
-/data/data/com.termux/files/usr/bin/c++ -O2 -g -DNDEBUG CMakeFiles/cmTC_fba4b.dir/CheckIncludeFile.cxx.o -o cmTC_fba4b

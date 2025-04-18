@@ -230,3 +230,66 @@ events:
         make[1]: Leaving directory '/storage/emulated/0/onionfly/build/CMakeFiles/CMakeScratch/TryCompile-4zrfYm'
         
       exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "CMakeLists.txt:7 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include string_view"
+    directories:
+      source: "/storage/emulated/0/onionfly/build/CMakeFiles/CMakeScratch/TryCompile-FoWhqG"
+      binary: "/storage/emulated/0/onionfly/build/CMakeFiles/CMakeScratch/TryCompile-FoWhqG"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/data/data/com.termux/files/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAS_STRING_VIEW"
+      cached: true
+      stdout: |
+        Change Dir: '/storage/emulated/0/onionfly/build/CMakeFiles/CMakeScratch/TryCompile-FoWhqG'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_fba4b/fast
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_fba4b.dir/build.make CMakeFiles/cmTC_fba4b.dir/build
+        make[1]: Entering directory '/storage/emulated/0/Onionfly/build/CMakeFiles/CMakeScratch/TryCompile-FoWhqG'
+        Building CXX object CMakeFiles/cmTC_fba4b.dir/CheckIncludeFile.cxx.o
+        /data/data/com.termux/files/usr/bin/c++   -O2 -g -DNDEBUG -MD -MT CMakeFiles/cmTC_fba4b.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_fba4b.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_fba4b.dir/CheckIncludeFile.cxx.o -c /storage/emulated/0/onionfly/build/CMakeFiles/CMakeScratch/TryCompile-FoWhqG/CheckIncludeFile.cxx
+        Linking CXX executable cmTC_fba4b
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fba4b.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++ -O2 -g -DNDEBUG CMakeFiles/cmTC_fba4b.dir/CheckIncludeFile.cxx.o -o cmTC_fba4b
+        make[1]: Leaving directory '/storage/emulated/0/Onionfly/build/CMakeFiles/CMakeScratch/TryCompile-FoWhqG'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "CMakeLists.txt:8 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include coroutine"
+    directories:
+      source: "/storage/emulated/0/onionfly/build/CMakeFiles/CMakeScratch/TryCompile-96elta"
+      binary: "/storage/emulated/0/onionfly/build/CMakeFiles/CMakeScratch/TryCompile-96elta"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/data/data/com.termux/files/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAS_COROUTINE"
+      cached: true
+      stdout: |
+        Change Dir: '/storage/emulated/0/onionfly/build/CMakeFiles/CMakeScratch/TryCompile-96elta'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_e6ede/fast
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_e6ede.dir/build.make CMakeFiles/cmTC_e6ede.dir/build
+        make[1]: Entering directory '/storage/emulated/0/onionfly/build/CMakeFiles/CMakeScratch/TryCompile-96elta'
+        Building CXX object CMakeFiles/cmTC_e6ede.dir/CheckIncludeFile.cxx.o
+        /data/data/com.termux/files/usr/bin/c++   -O2 -g -DNDEBUG -MD -MT CMakeFiles/cmTC_e6ede.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_e6ede.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_e6ede.dir/CheckIncludeFile.cxx.o -c /storage/emulated/0/onionfly/build/CMakeFiles/CMakeScratch/TryCompile-96elta/CheckIncludeFile.cxx
+        Linking CXX executable cmTC_e6ede
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6ede.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++ -O2 -g -DNDEBUG CMakeFiles/cmTC_e6ede.dir/CheckIncludeFile.cxx.o -o cmTC_e6ede
+        make[1]: Leaving directory '/storage/emulated/0/onionfly/build/CMakeFiles/CMakeScratch/TryCompile-96elta'
+        
+      exitCode: 0
+...
